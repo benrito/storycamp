@@ -1,0 +1,347 @@
+/*STORYCAMP*/
+
+.bavc-credit {
+padding-left: 91px;
+margin-top: -13px;
+font-size: 10px;
+}
+.collab {
+margin-top: -10px;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+	margin-top:20px;
+}
+
+#storycamp{
+margin:0px auto;	
+}
+
+.storycamp .active {
+	height:auto;
+	width:auto;
+}
+
+.storycamp .SC_cinema_left .active img{
+ -webkit-box-shadow:  2px 10px 15px 4px #000000;
+		 -moz-box-shadow:  2px 10px 15px 4px #000000;
+        box-shadow:  2px 10px 15px 4px #000000;
+}
+
+.resources{
+	width:300px;
+}
+
+.ch-projects div.thumbnail{
+width:186px;	
+}
+
+.featuredProjects div.thumbnail{
+	width:289px;
+	margin-left:21px;
+	margin-right:6px;
+	
+}
+
+.blogAggregator div{
+	width:187px;
+}
+
+.SC_left, .SC_right{
+	float:left;
+}
+
+div.events{
+	width:300px;
+	float:left;
+}
+
+.logoLeft{
+	float:left;
+	margin-right:10px;
+}
+
+.logoLeftLong{
+	float:left;
+}
+.SC_logos {
+padding: 4px;
+line-height: 8;
+}
+.SC_logos img{
+padding:5px;
+max-width: 100px;
+max-height: 100px;
+}
+
+.events ol{
+	display: block;
+  padding: 4px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+
+
+.events li {
+    border-top-color: #dddddd;
+    border-top-style: solid;
+    border-top-width: 1px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.events .date {
+   border-right: 1px solid #dddddd;
+    left: 0;
+    line-height: 1;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.events .date span {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.featuredProjects p{
+	padding:0px 5px;
+	
+}
+
+.featuredProjects h5, .blogAggregator h5, .events h5{
+	font-size:14px;
+	font-weight: bold;
+}
+
+.thumbnail p{
+	margin:10px 0px 10px 0px;
+}
+
+.blogAggregator li{
+	float:left;
+	margin-right:30px;
+	
+}
+
+.modal-body img{
+float:right;
+padding:5px;	
+}
+
+.storycamp .SC_cinema_left .modal-body p{
+width:515px;
+margin-top:0px;
+}
+
+.modal-body h2, .modal-body h3, .modal-body h4{
+	font-family:Open Sans, Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:#81C253;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.modal-body h3{
+font-size:20px;	
+border-bottom:1px solid #81C253;
+}
+.modal-body h4{
+font-size:14px;	
+color:#444444;
+}
+
+.SC_cinema_left .modal-body ul, .SC_cinema_left .modal-body ol{
+background-color:white;	
+margin-left:40px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+}
+
+.SC_cinema .modal-header h2{
+margin-bottom:0px;	
+}
+
+.modal-body ul li{
+	list-style:circle;	
+	margin-bottom:10px;
+}
+
+.modal-body ol li{
+	margin-bottom: 10px;
+}
+
+.modal-body ol li strong{
+	margin-right:10px;
+}
+
+.SC_nav p, .resources p, .SC_cinema_right p{
+margin:20px 0px 20px 0px;	
+}
+
+.tab-content SC_cinema_right p{
+width:640px;	
+}
+
+.SC_cinema_right h5, .featuredProjects h5{
+padding:5px;
+}
+
+.featuredProjects h6{
+	padding-left:5px;
+	
+}
+
+.span_SC_header h2{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+font-style:italic;	
+}
+
+.SC_cinema{
+height:100%;	
+}
+
+.SC_cinema h2, .SC_left h2, .SC_right h2{
+	font-family:Colaborate-Bold, Helvetica, Arial, sans-serif;
+	letter-spacing:-2px;
+	font-size:24px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+
+.span_SC_header {
+  width: 45%;
+  
+}
+.span_SC_header img{
+margin-left:20px;	
+}
+.SC_nav {
+  width: 45%;
+  margin-right:2px;
+  background-color:white;
+  padding:20px;
+  float:left;
+  height:100px;
+}
+.SC_nav img{
+float:left;	
+padding-right:15px;
+}
+.SC_nav .nav_text{
+	margin-top:10px;
+}
+
+
+.SC_cinema_left {
+  width: 25em;
+}
+
+.SC_cinema_left h1{
+font-family:Open Sans, Arial, Helvetica, sans-serif;
+font-size:14px;	
+font-weight:bold;
+letter-spacing:2px;
+  color:white;
+  letter-spacing: 0.025em;
+  margin:0px
+}
+.navList{
+ height:100%;
+  overflow-y:scroll;
+    background-color:#444444;
+  background-image:url(../img/story/chapter_bgtile.png);
+  margin-bottom:40px;
+}
+.navList li{
+padding:5px 0px 10px 34px;	
+}
+
+.tab-content{
+	height:100%
+}
+
+.SC_cinema_right {
+  left: 30em;
+  top: 9em;
+  position: absolute;
+}
+.SC_cinema_right ul li{
+float:left;
+width:190px;	
+margin-bottom:18px;
+}
+/*Storycamp buttons*/
+.btn-resource{
+width:260px;
+text-align:left;	
+}
+
+.btn-resource:hover{
+background-color:#81C253;	
+}
+
+/*/Storycamp Buttons*/
+
+.active-chapter {
+background-color: white;
+border: 3px solid red;
+}
+.active-chapter h1 {
+color:black;
+}
+#myModal{
+	clear:both;	
+}
+#unit{
+display: block;
+}
+#video-container {
+position: relative;
+width: 768px;
+margin: 1em auto;
+}
+#pop-container > div {
+/* default position */
+position: absolute;
+top: 0;
+left: 0;
+}
+.popcorn-pop { background-color: black; border-radius: 12px; color: black; padding: 4px 9px; font-family: 'Varela Round', sans-serif; font-size: 16px; }
+.popcorn-pop > div { background-color: white; border-radius: 8px; padding: 4px; position: relative; }
+.popcorn-pop .image { clip-path: url("#popcorn-pop-clip-path"); }
+.popcorn-pop .icon { position: absolute; z-index: 2; top: -50%;}
+.popcorn-pop .icon + div { padding-left: 12px; }
+#scrollbar1 { width: 520px; clear: both; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 500px; height: 200px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #003D5D; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar1 .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+
+/*end storycamp*/
+

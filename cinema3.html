@@ -1,0 +1,205 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Mozilla Popcorn Story Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/popcorn.css" rel="stylesheet">
+    <link href="css/story.css" rel="stylesheet">
+    <link href="css/video-js.css" rel="stylesheet">
+    <style type="text/css">
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+
+
+
+    <div class="container-fluid">
+
+<!--Story Camp Header-->
+  
+<div class="row well" style="height:50px">
+  <div class="span6 collab"> 
+  <a href="index.html"><img src="img/story/storycamp_logo.png" width="150px" class="leftpad"> </a>
+  <br>
+  <div class="bavc-credit">
+  created in collaboration with   <a href="http://bavc.org/" target="_blank"><img src="img/story/partner/smallbavc.gif" width="50px" /></a>
+  </div>
+  </div>  
+  <div class="span6 toppad">
+  <h2>Remix</h2>
+  <a class="btn pull-right" href="docs/popcorn_teacher_guide.pdf"><i class="icon-download-alt"></i>Get teachers' guide [PDF]</a>
+    </div>    
+</div>
+
+<!--End Story Camp Header-->
+  
+<hr>  
+
+<!--Start Chapter Nav-->
+
+
+<div class="SC_cinema_left">
+        <ul class="navList">
+          <li>
+            <h1>Introduction</h1>
+            <a href="cinema.html"> <img src="img/story/chapter01.png"> </a></li>
+          <li>
+            <h1>History of Media</h1>
+            <a href="cinema2.html"> <img src="img/story/chapter02.png"></a></li>
+          <li class="active-chapter">
+            <h1>Remix</h1>
+            <a href="#"> <img src="img/story/chapter03.png"></a></li>
+          <li>
+            <h1>Ways of the Web</h1>
+            <a href="cinema4.html"> <img src="img/story/chapter04.png"></a></li>
+          <li>
+            <h1>Web Native Storytelling</h1>
+            <a href="cinema5.html"> <img src="img/story/chapter05.png"></a></li>
+          <li>
+            <h1>Web Native Planning</h1>
+            <a href="cinema6.html"> <img src="img/story/chapter06.png"></a></li>
+        </ul>
+</div>
+
+<!--End Chapter Nav-->
+
+
+<!--Week 1 Content-->
+
+  <div class="SC_cinema_right">
+
+<div id="video-container">
+<video id="my_video_1" class="video-js vjs-default-skin" controls
+  preload="auto" width="768" height="480" poster="img/story/episode3.jpg"
+  data-setup="{}">
+  <source src="http://videos-origin.mozilla.org/serv/webmademovies/storycamp/storycamp_episode3.mp4" type='video/mp4'>
+  <source src="http://videos-origin.mozilla.org/serv/webmademovies/storycamp/storycamp_episode3.webm" type='video/webm'>
+</video>
+<div id="pop-container"></div>
+</div>
+
+  <br>
+  
+  <!--extra content-->
+  
+  <div style="display:block">
+          <h2>Week Three Projects</h2>
+            <ul class="thumbnails">
+              <li>
+                <div class="thumbnail"> <a href="#"> <img src="img/story/webinar_thumb03.png" alt=""> </a>
+                <h4>Chat with Jon McIntosh</h4>
+                </div>
+              </li>
+              <li>
+                <div class="thumbnail"> <a href="#"> <img src="img/story/title_context_small.png" height="116px" alt=""> </a>
+                  <h4>Remix a Story</h4>
+                </div>
+              </li>
+               <li>
+                <div class="thumbnail"> <a href="http://www.newsjack.in"> <img src="img/story/newsjack_thumb.png" height="116px" alt=""> </a>
+                  <h4>Jack the News</h4>
+                </div>
+              </li>
+               <li>
+                <div class="thumbnail"> <a href="http://www.genderremixer.com/html5/" target="_blank"> <img src="img/story/genderemixer_thumb.jpg" height="116px" alt=""> </a>
+                  <h4>Gender Remixer</h4>
+                </div>
+              </li>
+            </ul>
+  </div> 
+  
+<!--end extra content-->
+
+  </div>  
+
+<!--End Week 1 Content-->
+
+  
+</div>
+
+
+ 
+
+    <!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.7.2.min.js"></script> 
+<script src="js/bootstrap-tab.js"></script> 
+<script src="js/bootstrap-modal.js"></script>  
+<script src="js/video.js"></script>
+<script src="js/popcorn.js"></script>
+<script src="js/popcorn.pop.js"></script>
+<script type="text/javascript">(function(){
+var popcorn = Popcorn( '#my_video_1_html5_api');
+popcorn.pop({
+  "start": 38.63,
+  "end": 43.13,
+  "text": "WATCH this video about a virtual choir that connected people around the world",
+  "link": "http://ericwhitacre.com/the-virtual-choir",
+  "top": "81%",
+  "left": "5%",
+  "target": "pop-container",
+  "icon": "pop-images/tv.png"
+});
+popcorn.pop({
+  "start": 67.06,
+  "end": 71.6,
+  "text": "Read about Open Source",
+  "link": "http://en.wikipedia.org/wiki/Open_source",
+  "top": "74%",
+  "left": "50%",
+  "target": "pop-container",
+  "icon": "pop-images/info.png"
+});
+popcorn.pop({
+  "start": 104.67,
+  "end": 108.46,
+  "text": "Learn about Andy Warhol",
+  "link": "http://en.wikipedia.org/wiki/Andy_Warhol",
+  "top": "19%",
+  "left": "15%",
+  "target": "pop-container",
+  "icon": "pop-images/user.png"
+});
+popcorn.pop({
+  "start": 110.18,
+  "end": 114.44,
+  "text": "Watch Rip! A Remix Manifesto, a documentary about remix culture",
+  "link": "http://www.nfb.ca/rip",
+  "top": "75%",
+  "left": "50%",
+  "target": "pop-container",
+  "icon": "pop-images/tv.png"
+});
+popcorn.pop({
+  "start": 132.82,
+  "end": 135.94,
+  "text": "Try remixing the web with Mozilla's Thimble App",
+  "link": "http://www.webmaker.org/tools",
+  "top": "72%",
+  "left": "50%",
+  "target": "pop-container",
+  "icon": "pop-images/net.png"
+});
+
+ return popcorn;
+}());</script>
+</body>
+</html>

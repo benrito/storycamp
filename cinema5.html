@@ -1,0 +1,243 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Mozilla Popcorn Story Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/popcorn.css" rel="stylesheet">
+    <link href="css/story.css" rel="stylesheet">
+    <link href="css/video-js.css" rel="stylesheet">
+    <style type="text/css">
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+
+
+
+    <div class="container-fluid">
+
+<!--Story Camp Header-->
+  
+<div class="row well" style="height:50px">
+  <div class="span6 collab"> 
+  <a href="index.html"><img src="img/story/storycamp_logo.png" width="150px" class="leftpad"> </a>
+  <br>
+  <div class="bavc-credit">
+  created in collaboration with   <a href="http://bavc.org/" target="_blank"><img src="img/story/partner/smallbavc.gif" width="50px" /></a>
+  </div>
+  </div>  
+  <div class="span6 toppad">
+  <h2>Web Native Storytelling</h2>
+  <a class="btn pull-right" href="docs/popcorn_teacher_guide.pdf"><i class="icon-download-alt"></i>Get teachers' guide [PDF]</a>
+    </div>    
+</div>
+
+<!--End Story Camp Header-->
+  
+<hr>  
+
+<!--Start Chapter Nav-->
+
+
+<div class="SC_cinema_left">
+        <ul class="navList">
+          <li>
+            <h1>Introduction</h1>
+            <a href="cinema.html"> <img src="img/story/chapter01.png"> </a></li>
+          <li>
+            <h1>History of Media</h1>
+            <a href="cinema2.html"> <img src="img/story/chapter02.png"></a></li>
+          <li>
+            <h1>Remix</h1>
+            <a href="cinema3.html"> <img src="img/story/chapter03.png"></a></li>
+          <li>
+            <h1>Ways of the Web</h1>
+            <a href="cinema4.html"> <img src="img/story/chapter04.png"></a></li>
+          <li class="active-chapter">
+            <h1>Web Native Storytelling</h1>
+            <a href="#"> <img src="img/story/chapter05.png"></a></li>
+          <li >
+            <h1>Web Native Planning</h1>
+            <a href="cinema6.html"> <img src="img/story/chapter06.png"></a></li>
+        </ul>
+</div>
+
+<!--End Chapter Nav-->
+
+
+<!--Week 1 Content-->
+
+  <div class="SC_cinema_right">
+
+<div id="video-container">
+<video id="my_video_1" class="video-js vjs-default-skin" controls
+  preload="auto" width="768" height="480" poster="img/story/episode5.jpg"
+  data-setup="{}">
+  <source src="http://videos-origin.mozilla.org/serv/webmademovies/storycamp/storycamp_episode5.mp4" type='video/mp4'>
+  <source src="http://videos-origin.mozilla.org/serv/webmademovies/storycamp/storycamp_episode5.webm" type='video/webm'>
+</video>
+<div id="pop-container"></div>
+</div>
+
+  <br>
+  
+  <!--extra content-->
+  
+  <div style="display:block">
+          <h2>Week Five Projects</h2>
+            <ul class="thumbnails">
+              <li>
+                <div class="thumbnail"> <a href="#"> <img src="img/story/webinar_thumb05.png" alt=""> </a>
+                <h4>Chat with Anita Sarkeesian</h4>
+                </div>
+              </li>
+              <li>
+                <div class="thumbnail"> <a href="#"> <img src="img/story/title_newscast_small.png" height="116px" alt=""> </a>
+                  <h4>Report the News</h4>
+                </div>
+              </li>
+            </ul>
+  </div> 
+  
+<!--end extra content-->
+
+  </div>  
+
+<!--End Week 1 Content-->
+
+  
+</div>
+
+
+ 
+
+    <!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.7.2.min.js"></script> 
+<script src="js/bootstrap-tab.js"></script> 
+<script src="js/bootstrap-modal.js"></script>  
+<script src="js/video.js"></script>
+<script src="js/popcorn.js"></script>
+<script src="js/popcorn.pop.js"></script>
+<script type="text/javascript">(function(){
+var popcorn = Popcorn( '#my_video_1_html5_api');
+popcorn.pop({
+  "start": 22.11,
+  "end": 25.86,
+  "text": "Watch \"History In These Streets\", created by students at BAVC",
+  "link": "http://bavc.org/sites/live/files/factory/historyinthestreets/index.html",
+  "top": "70%",
+  "left": "3%",
+  "target": "pop-container",
+  "icon": "pop-images/eye.png"
+});
+popcorn.pop({
+  "start": 43.88,
+  "end": 47.74,
+  "text": "\"Jaws\" - (1975)",
+  "link": "http://www.imdb.com/title/tt0073195/",
+  "top": "83%",
+  "left": "14%",
+  "target": "pop-container"
+});
+popcorn.pop({
+  "start": 49.13,
+  "end": 50.71,
+  "text": "\"Memento\" (2000)",
+  "link": "http://www.imdb.com/title/tt0209144/",
+  "top": "78%",
+  "left": "9%",
+  "target": "pop-container"
+});
+popcorn.pop({
+  "start": 52.18,
+  "end": 54.59,
+  "text": "Watch \"Never Mind The Bullets\", a web comic",
+  "link": "http://www.nevermindthebullets.com/?fbid=PSi5OxNAE0Y",
+  "top": "60%",
+  "left": "12%",
+  "target": "pop-container",
+  "icon": "pop-images/skull.png"
+});
+popcorn.pop({
+  "start": 81.2,
+  "end": 86.47,
+  "text": "Watch \"Take This Lollipop\"",
+  "link": "http://www.takethislollipop.com/",
+  "top": "83%",
+  "left": "50%",
+  "target": "pop-container",
+  "icon": "pop-images/tv.png"
+});
+popcorn.pop({
+  "start": 104.99,
+  "end": 109.95,
+  "text": "Watch \"The Wilderness Downtown\"",
+  "link": "http://thewildernessdowntown.com/",
+  "top": "73%",
+  "left": "5%",
+  "target": "pop-container",
+  "icon": "pop-images/eye.png"
+});
+popcorn.pop({
+  "start": 129.78,
+  "end": 135.42,
+  "text": "Watch \"Out My Window\"",
+  "link": "http://interactive.nfb.ca/#/outmywindow",
+  "top": "75%",
+  "left": "10%",
+  "target": "pop-container",
+  "icon": "pop-images/eye.png"
+});
+popcorn.pop({
+  "start": 153.2,
+  "end": 157.25,
+  "text": "Watch \"Pine Point\"",
+  "link": "http://interactive.nfb.ca/#/pinepoint",
+  "top": "77%",
+  "left": "67%",
+  "target": "pop-container",
+  "icon": "pop-images/eye.png"
+});
+popcorn.pop({
+  "start": 267.95,
+  "end": 272.67,
+  "text": "Read About Stan Brakhage",
+  "link": "http://en.wikipedia.org/wiki/Stan_Brakhage",
+  "top": "77%",
+  "left": "18%",
+  "target": "pop-container",
+  "icon": "pop-images/info.png"
+});
+popcorn.pop({
+  "start": 283.99,
+  "end": 287.63,
+  "text": "Listen to Girl Talk",
+  "link": "http://illegal-art.net/girltalk/",
+  "top": "73%",
+  "left": "71%",
+  "target": "pop-container",
+  "icon": "pop-images/music.png"
+});
+
+ return popcorn;
+}());</script>
+</body>
+</html>

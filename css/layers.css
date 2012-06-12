@@ -1,0 +1,193 @@
+/**
+ *
+ * License Layers Demo CSS
+ * 
+ * copyright 2010, Creative Commons, Nathan Yergler, Alex Roberts
+ * licensed to the public under CC BY 3.0 Unported
+ * <http://creativecommons.org/licenses/by/3.0/>.
+ * 
+ **/
+
+body {
+	top: 0px;
+	font-family: helvetica, sans-serif;
+    background-color: #fff;
+}
+
+img {
+    border: none;
+}
+a {
+	color: #26B5D8
+}
+#explainer-container { 
+    position:relative; 
+    height: 630px;
+    margin: auto;
+}
+
+#footer {
+    margin: auto;
+    font-size: 0.7em;
+}
+
+.layer {
+    
+    position: absolute; 
+    left: 150px;
+    top: 125px;
+    
+    width: 201px; 
+    height: 208px; 
+
+    opacity: 1;
+    background-color: #ffe;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -moz-box-shadow: -5px 5px 5px #888;
+    -webkit-box-shadow: -5px 5px 5px #888;
+    box-shadow: -5px 5px 5px #888;
+
+    -moz-transition: -moz-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out; 
+    -webkit-transition: -webkit-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out;
+    -o-transition: -o-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out; 
+}
+
+.iso {
+    
+    position: absolute; 
+    left: 100; 
+    top: 125;
+    
+    width: 201px; 
+    height: 208px; 
+
+    opacity: 1;
+    background-color: #ffe;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+
+    -moz-box-shadow: -5px 5px 5px #888;
+    -webkit-box-shadow: -5px 5px 5px #888;
+    box-shadow: -5px 5px 5px #888;
+
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg); 
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg); 
+    -o-transform: rotate(-45deg) skew(15deg, 15deg); 
+
+}
+
+#deck:hover, .hover {
+    -moz-box-shadow: -5px 5px 5px #26B5D8;
+    -webkit-box-shadow: -5px 5px 5px #26B5D8;
+    box-shadow: -5px 5px 5px #26B5D8;
+}
+
+.dimmed {
+    opacity: 0.15 !important;
+
+}
+
+.exploded {
+    border: 1px solid #666;
+    opacity: 1;
+
+    -moz-transition: -moz-transform .5s ease-in-out, opacity 0.25s; 
+    -webkit-transition: -webkit-transform .5s ease-in-out, opacity 0.25s; 
+    -o-transition: all .5s ease-in-out; 
+}
+
+#deck { 
+    opacity: 1;
+    display: block;
+    border: 1px solid #000;
+    background-image : url('../img/pop.png');
+    cursor: pointer;
+}
+
+#deck.iso {
+}
+
+#deck.exploded { 
+    opacity: 0 !important;
+
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em); 
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em); 
+    -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em);
+
+    -moz-transition: -moz-transform .25s ease-in-out, opacity .5s ease-in-out !important;
+    -webkit-transition: -webkit-transform .25s ease-in-out, opacity .25s ease-in-out !important;
+    -o-transition: -o-transform .25s ease-in-out, opacity .25s ease-in-out !important
+
+}
+
+#template {
+    background-image: url('../img/doc.png');
+}
+
+#template.exploded { 
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em); 
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em); 
+    -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em);
+}
+
+#butter { 
+    background-image: url('../img/bjs.png');
+}
+
+#butter.exploded { 
+} 
+
+#popcorn { 
+    background-image: url('../img/pjs.png');
+}
+
+#popcorn.exploded { 
+    -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
+    -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
+}
+
+.focused { 
+    z-index:1; 
+
+    -moz-transform: scale(1.25) translate(5em, 1em) !important;
+    -webkit-transform: scale(1.25) translate(5em, 1em) !important;
+    -o-transform: scale(1.25) translate(5em, 1em) !important;
+}
+
+.description { 
+    opacity: 0;
+    position: absolute;
+    margin-top: 70px;
+    width: 325px;
+    left: 500px;
+
+    -moz-transition: opacity 0.75s, display: 0.75s;
+    -webkit-transition: opacity 0.75s;
+    -o-transition: opacity 0.75s;
+} 
+
+.focusedtext { 
+    display: block;
+    opacity: 1 !important;
+    z-index: 1;
+}
+#intro {
+	margin-top: 100px;
+}
+#reset {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.mozilla {
+	padding-top: 50px;
+}
+.credit {
+    margin: 0px auto;
+	width:375px;
+}
