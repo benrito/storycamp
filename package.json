@@ -1,0 +1,23 @@
+{
+  "name": "storycamp",
+  "version": "0.1.0",
+  "author": "Mozilla Foundation",
+  "description": "Mozilla Storycamp Site",
+  "contributors": [
+    {
+      "name": "Ben Moskowitz",
+      "email": "benrito@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benrito/storycamp"
+  },
+  "dependencies": {
+    "shelljs": "0.0.x",
+    "csslint": "0.9.x"
+  },
+  "engine": {
+    "node": ">=0.6"
+  }
+}
