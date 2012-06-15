@@ -3325,7 +3325,6 @@ input[type="submit"].btn.btn-mini {
   display: block;
   padding: 1px;
   line-height: 1;
-  border: 1px solid black;
 }
 a.thumbnail:hover {
   border-color: #0088cc;

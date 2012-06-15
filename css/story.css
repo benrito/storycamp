@@ -442,6 +442,7 @@ margin-bottom:18px;
 }
 .sc-banner {
  height:50px;
+ min-width: 960px;
 }
 .sc-banner-logo {
   width: 150px;
