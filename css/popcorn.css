@@ -3318,8 +3318,14 @@ input[type="submit"].btn.btn-mini {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 1px;
   line-height: 1;
+}
+.thumbnail-front {
+  display: block;
+  padding: 1px;
+  line-height: 1;
+  border: 1px solid black;
 }
 a.thumbnail:hover {
   border-color: #0088cc;

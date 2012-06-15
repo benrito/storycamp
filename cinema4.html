@@ -32,17 +32,18 @@
 
 <!--Story Camp Header-->
   
-<div class="row well" style="height:50px">
+<div class="row well">
   <div class="span6 collab"> 
-  <a href="index.html"><img src="img/story/storycamp_logo.png" width="150px" class="leftpad"> </a>
+  <a href="index.html"><img src="img/story/storycamp_logo.png" class="leftpad sc-banner-logo"> </a>
   <br>
   <div class="bavc-credit">
   created in collaboration with   <a href="http://bavc.org/" target="_blank"><img src="img/story/partner/smallbavc.gif" width="50px" /></a>
   </div>
   </div>  
-  <div class="span6 toppad">
-  <h2>Ways of the Web</h2>
-  <a class="btn pull-right" href="docs/popcorn_teacher_guide.pdf"><i class="icon-download-alt"></i>Get teachers' guide [PDF]</a>
+  <div class="span6">
+  <h2>Ways of the Web</h2><br>
+  <h5>Hack the web. Look under the hood.</h5>
+  <a class="btn pull-right download-btn" href="docs/popcorn_teacher_guide.pdf"><i class="icon-download-alt"></i>Get teachers' guide [PDF]</a>
     </div>    
 </div>
 
@@ -81,7 +82,7 @@
 
 <!--Week 1 Content-->
 
-  <div class="SC_cinema_right">
+  <div class="SC_cinema_right well">
 
 <div id="video-container">
 <video id="my_video_1" class="video-js vjs-default-skin" controls
@@ -97,24 +98,100 @@
   
   <!--extra content-->
   
-  <div style="display:block">
+    <div style="display:block">
           <h2>Week Four Projects</h2>
-            <ul class="thumbnails">
+ <!-- teacher resources -->
+
+            <div class="pull-right">
+              <a class="btn btn-resource" data-toggle="modal" href="#04modal01">Week Four: Assignments</a> <br>
+            </div>
+            
+  <!-- activity resources -->
+
+              <ul class="thumbnails">
               <li>
-                <div class="thumbnail"> <a href="#"> <img src="img/story/webinar_thumb04.png" alt=""> </a>
-                <h4>Chat with Michelle Levesque</h4>
+                <div class="thumbnail coming-soon"> <a href="#"> <img src="img/story/webinar_thumb04.png" alt=""> </a>
+                <h4>Chat w Michelle Levesque</h4><br>
+                <h4><em>check back soon!</em>
                 </div>
               </li>
               <li>
-                <div class="thumbnail"> <a href="#"> <img src="img/story/thimble_logo.png" alt=""> </a>
+                <div class="thumbnail"> <a href="http://thimble.webmaker.org"> <img src="img/story/thimble_logo.jpg" alt=""> </a>
                   <h4>Play with Thimble</h4>
                 </div>
               </li>
             </ul>
   </div> 
   
-<!--end extra content-->
-
+      <!-- modal content -->
+      <div id="04modal01" class="modal hide fade" style="display:none;">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h2>Week Four: Ways of the Web</h2>
+        </div>
+        <div class="modal-body">
+          <div class="modalFloaterRight">
+            <h4>About Text Editors</h4>
+            <br/>
+            <p>
+            <h5>What they are</h5>
+            <br/>
+            Anyone can edit HTML, CSS and Javascript using a simple text editor. Popcorn allows you to export your code, so having a basic understanding of HTML will allow you to further customize your project outside of the Popcorn interface. We recommend choosing a text editor that shows you syntax highlighting for code.
+            </p>
+            <p>
+            <h5>Free Text Editors</h5>
+            <br/>
+            <ul>
+              <li><a href="http://www.barebones.com/products/TextWrangler/Text Wrangler" target="_blank">Text Wrangler</a></li>
+              <li> <a href="http://notepad-plus-plus.org/">Notepad ++</a></li>
+              <li> <a href="http://netbeans.org/" target="_blank">NetBeans</a></li>
+            </ul>
+            </p>
+            <h4>HTMLpad</h4>
+            <br/>
+            <p>
+            <h5>What it is</h5>
+            <br/>
+            Collaborative HTML writing/editing. You can use HTMLPad as a “text editor” specifically for HTML and CSS.
+            </p>
+            <p>
+            <h5>Setup</h5>
+            <br/>
+            <p>
+            Go to <a href="http://htmlpad.org" target="_blank">htmlpad.org</a>
+            </p>
+            <p>
+            <h5>Tips and Tricks</h5>
+            <br/>
+            Go to htmlpad.org/TYPE-THE-NAMEYOU-WANT and give your HTMLpad a memorable name. As with all online tools, the lack of connectivity can affect HTMLpad’s ability to function properly! At the end of a large collaborative coding session, export your pad just so you have a hard copy, you know just in case.
+            </p>
+            <p>
+            <h5>Super Awesome Feature</h5>
+            <br/>
+            The time slider. The time slider. Watch the evolution of collaborative coding by scrubbing the time slider!
+            </p>
+          </div>
+         
+          <h3>Assignments</h3>
+          <p>
+          <h4>1. Watch the “Week 4: Ways Of The Web” curriculum video and explore the pop up resources in the video</h4>
+          </p>
+          <h4>2: Individual Blogpost</h4>
+          <p><strong>Tool:</strong> Your personal website, Tumblr, Wordpress, Blogger, etc.</p>
+          <p> Write a blog post on the week four guest speaker.</p>
+          <h4>3. Explore the Web Making projects at Webmaker.org</h4>
+          <p>Visit <a href="http://webmaker.org" target="_blank">Webmaker.org</a> - as part of the Summer Code Party, Mozilla and other partners have created a series of projects that teach the basics of writing HTML and CSS. Explore these projects and assign the ones most appropriate to your learners. Have your learners use Mozilla’s <a href="http://thimble.webmaker.org" target="_blank">Thimble</a> to play around with HTML. Mozilla’s Thimble App makes it ridiculously simple to create and share your own web pages.</p>
+          <h4>4: Edit the style one of your old projects using a text editor</h4>
+          <p><strong>Tool:</strong> Any Text Editor</p>
+          <p>Using the “view source” option of Popcorn, Copy and paste the HTML and
+            CSS of one of one of your previous popcorn projects into a text editor. Using
+            the skills you learned at Webmaker.org, tinker around with the code
+            and redesign the page.</p>
+        </div>
+        <div class="modal-footer"> <a href="#" class="btn" data-dismiss="modal" >Close</a>  </div>
+      </div>
+    </div>
+    <!--end extra content--> 
   </div>  
 
 <!--End Week 1 Content-->
