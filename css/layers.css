@@ -9,7 +9,7 @@
  **/
 
 body {
-	top: 0px;
+	top: 0;
 	font-family: helvetica, sans-serif;
     background-color: #fff;
 }
@@ -52,6 +52,7 @@ a {
     -moz-transition: -moz-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out; 
     -webkit-transition: -webkit-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out;
     -o-transition: -o-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out; 
+    -ms-transition: -ms-transform 0.75s ease-in-out, opacity 0.75s, left 0.75s ease-in-out; 
 }
 
 .iso {
@@ -77,7 +78,8 @@ a {
     -moz-transform: rotate(-45deg) skew(15deg, 15deg); 
     -webkit-transform: rotate(-45deg) skew(15deg, 15deg); 
     -o-transform: rotate(-45deg) skew(15deg, 15deg); 
-
+    -ms-transform: rotate(-45deg) skew(15deg, 15deg); 
+    transform: rotate(-45deg) skew(15deg, 15deg); 
 }
 
 #deck:hover, .hover {
@@ -98,6 +100,7 @@ a {
     -moz-transition: -moz-transform .5s ease-in-out, opacity 0.25s; 
     -webkit-transition: -webkit-transform .5s ease-in-out, opacity 0.25s; 
     -o-transition: all .5s ease-in-out; 
+    -ms-transition: all .5s ease-in-out;
 }
 
 #deck { 
@@ -117,11 +120,13 @@ a {
     -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em); 
     -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em); 
     -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em);
-
+    -ms-transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em);
+    transform: rotate(-45deg) skew(15deg, 15deg) translate(20em,-20em);
     -moz-transition: -moz-transform .25s ease-in-out, opacity .5s ease-in-out !important;
     -webkit-transition: -webkit-transform .25s ease-in-out, opacity .25s ease-in-out !important;
-    -o-transition: -o-transform .25s ease-in-out, opacity .25s ease-in-out !important
-
+    -o-transition: -o-transform .25s ease-in-out, opacity .25s ease-in-out !important;
+    -ms-transition: -ms-transform .25s ease-in-out, opacity .25s ease-in-out !important;
+    transition: transform .25s ease-in-out, opacity .25s ease-in-out !important;
 }
 
 #template {
@@ -132,6 +137,8 @@ a {
     -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em); 
     -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em); 
     -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em);
+    -ms-transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em);
+    transform: rotate(-45deg) skew(15deg, 15deg) translate(3em,-3em);
 }
 
 #butter { 
@@ -148,7 +155,9 @@ a {
 #popcorn.exploded { 
     -moz-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
     -webkit-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
-    -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em); 
+    -o-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em);
+    -ms-transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em);
+    transform: rotate(-45deg) skew(15deg, 15deg) translate(-3em,3em);  
 }
 
 .focused { 
@@ -157,6 +166,8 @@ a {
     -moz-transform: scale(1.25) translate(5em, 1em) !important;
     -webkit-transform: scale(1.25) translate(5em, 1em) !important;
     -o-transform: scale(1.25) translate(5em, 1em) !important;
+    -ms-transform: scale(1.25) translate(5em, 1em) !important;
+     transform: scale(1.25) translate(5em, 1em) !important;
 }
 
 .description { 
@@ -166,9 +177,11 @@ a {
     width: 325px;
     left: 500px;
 
-    -moz-transition: opacity 0.75s, display: 0.75s;
+    -moz-transition: opacity 0.75s;
     -webkit-transition: opacity 0.75s;
     -o-transition: opacity 0.75s;
+    -ms-transition: opacity 0.75s;
+    transition: opacity 0.75s;
 } 
 
 .focusedtext { 
@@ -188,6 +201,6 @@ a {
 	padding-top: 50px;
 }
 .credit {
-    margin: 0px auto;
+    margin: 0 auto;
 	width:375px;
 }

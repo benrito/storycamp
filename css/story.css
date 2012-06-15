@@ -15,7 +15,7 @@ margin-top: -10px;
 }
 
 #storycamp{
-margin:0px auto;	
+margin: 0 auto;	
 }
 
 .storycamp .active {
@@ -124,7 +124,7 @@ max-height: 100px;
 
 
 .featuredProjects p{
-	padding:0px 5px;
+	padding: 0 5px;
 	
 }
 
@@ -134,7 +134,7 @@ max-height: 100px;
 }
 
 .thumbnail p{
-	margin:10px 0px 10px 0px;
+	margin:10px 0 10px 0;
 }
 
 .blogAggregator li{
@@ -150,7 +150,7 @@ padding:5px;
 
 .storycamp .SC_cinema_left .modal-body p{
 width:515px;
-margin-top:0px;
+margin-top:0;
 }
 
 .modal-body h2, .modal-body h3, .modal-body h4{
@@ -177,7 +177,7 @@ font-size:14px;
 }
 
 .SC_cinema .modal-header h2{
-margin-bottom:0px;	
+margin-bottom:0;	
 }
 
 .modal-body ul li{
@@ -194,7 +194,7 @@ margin-bottom:0px;
 }
 
 .SC_nav p, .resources p, .SC_cinema_right p{
-margin:20px 0px 20px 0px;	
+margin:20px 0 20px 0;	
 }
 
 .tab-content SC_cinema_right p{
@@ -261,10 +261,9 @@ padding-right:15px;
 font-family:Open Sans, Arial, Helvetica, sans-serif;
 font-size:14px;	
 font-weight:bold;
-letter-spacing:2px;
 color:white;
 letter-spacing: 0.025em;
-margin:0px
+margin:0;
 }
 .navList{
  height:100%;
@@ -274,7 +273,7 @@ margin:0px
  margin-bottom:40px;
 }
 .navList li{
-padding:5px 0px 10px 34px;	
+padding:5px 0 10px 34px;	
 }
 
 .tab-content{
@@ -354,10 +353,12 @@ left: 0;
 
 .frontlogo {
   width: 450px;
+  -ms-user-select: none;
   -moz-user-select: none; 
   -khtml-user-select: none; 
   -webkit-user-select: none; 
   -o-user-select: none; 
+  user-select: none;
 }
 .download-btn {
   margin-top: -15px;
@@ -373,7 +374,7 @@ padding:5px;
 
 .modal-body p{
 width:510px;
-margin-top:0px;
+margin-top:0;
 margin-bottom:10px;
 }
 
@@ -401,7 +402,7 @@ font-size:14px;
 }
 
 .SC_cinema .modal-header h2{
-margin-bottom:0px;  
+margin-bottom:0;  
 }
 
 .modal-body ul li{
