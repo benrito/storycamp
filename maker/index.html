@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Popcorn Maker</title>
+    <script src="scripts/modernizr.custom.47927.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/chooser.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/publish.css">
+	<link rel="shortcut icon" href="http://mozillapopcorn.org/wp-content/themes/popcorn/favicon.ico" />
+        </head>
+  <body>
+
+    <header>
+      <a href="#"><img src="images/logo.png" class="drop"></a>
+      <div class="editor-actions">
+          <button id="new">New</button>
+          <button id="save">Save</button>
+          <button id="load">Load</button>
+          <button id="share">Share</button> 
+          <button id="auth"></button> |
+          <button id="auth-out">Logout</button>
+      </div>
+    </header>
+    <section id="intro" class="out-on-right">
+      <div class="wrapper">
+        <img src="images/corn.png" class="corn">
+        <div class="details front">
+          <h2>Mozilla Popcorn preview</h2>
+          <aside><p>You're checking out a preview of an app in active development. This is using version <strong><a href="https://webmademovies.lighthouseapp.com/projects/65733-popcorn-maker/milestones/147734-052-popcorn-beta">0.5.2</a></strong> of the editor tools.</p> 
+          
+          <p>Mozilla Popcorn lets you bring the web into your video. This version is designed for testing and feedback purposes, but you can still play around and make something cool. When you find bugs, or have suggestions for new features, <a href="https://webmademovies.lighthouseapp.com/projects/65733-butter/overview">please let us know</a>! </p>
+          <p><strong>Popcorn will be released in late 2012</strong>. Check out our roadmap and <a href="https://webmademovies.lighthouseapp.com/projects/65733-butter/overview">get involved</a>.</p>
+</aside>
+          <a href="#chooser" class="start">Get Started</a>
+        </div>
+      </div>
+<!--		  <img src="images/mozilla.png" class="mozlogo"> -->
+    </section>
+    <section id="chooser" class="out-on-right">
+      <div class="wrapper">
+        <h2>Choose a template</h2>
+        <p>Popcorn Maker templates are regular HTML + CSS. Don't see one you like? <a href="http://benmoskowitz.com/popcorn-contribute/">Make your own.</a>
+        
+        <a class="navleft" href="#intro"></a>
+      
+        </div>
+        <ul class="templates">
+          <li><a href="http://storycamp.mozillapopcorn.org/templates/supported/popup" preview="#editor.previews/pop_preview">Pop-Up</a>
+
+          <li><a href="http://storycamp.mozillapopcorn.org/templates/supported/robots" preview="#editor.previews/robots_preview">Robots</a>
+
+          <li><a href="http://storycamp.mozillapopcorn.org/templates/supported/newscaster" preview="#editor.previews/newscaster_preview">Newscaster</a>
+          
+        </ul>
+      </div>
+    </section>
+    <section id="editor" class="out-on-right">
+      <div id="source"></div>
+      <div id="preview-holder">
+        <iframe id="preview"></iframe>
+      </div>
+    </section>
+
+    <footer>Popcorn Maker is lovingly crafted by Mozilla. <a href="http://github.com/mozilla/butter">Code</a> is freely available under MIT license. <a href="mailto:popcorn@mozilla.com">Get in touch!</a></footer>    
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/yepnope.1.0.2-min.js"></script>
+    <script src="scripts/editor.js"></script>
+    <script src="scripts/publish.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/chooser.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/jquery-ui-1.8.17.custom.min.js"></script>
+  </body>
+</html>

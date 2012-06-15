@@ -1,0 +1,46 @@
+section#chooser .templates {
+  padding-top: 20px;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  list-style-type: none;
+}
+
+section#chooser li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'BebasRegular';
+  font-size: 30px;
+  line-height: 50px;
+  word-spacing: 10px;
+  color: inherit;
+}
+
+section#chooser li iframe, section#chooser li .iframe-curtain {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  width: 480px;
+  height: 270px;
+  display: none;
+}
+
+section#chooser li iframe {
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px #414244;
+}
+
+section#chooser li {
+  padding-left: 10px;
+  color: gray;
+}
+
+section#chooser li.selected {
+  background: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+section#chooser li.selected iframe,
+section#chooser li.selected .iframe-curtain {
+  display: block;
+}
