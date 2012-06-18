@@ -188,6 +188,7 @@ margin-bottom:0px;
 
 .modal-body ol li{
 	margin-bottom: 10px;
+  list-style-position: inside;
 }
 
 .modal-body ol li strong{
