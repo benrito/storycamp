@@ -183,6 +183,7 @@ margin-bottom:0px;
 .modal-body ul li{
 	list-style:circle;	
 	margin-bottom:10px;
+  width:100%;
 }
 
 .modal-body ol li{
