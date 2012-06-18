@@ -405,18 +405,6 @@ font-size:14px;
 margin-bottom:0px;  
 }
 
-.modal-body ul li{
-  list-style:circle;  
-  margin-bottom:10px;
-}
-
-.modal-body ol li{
-  margin-bottom: 10px;
-}
-
-.modal-body ol li strong{
-  margin-right:10px;
-}
 .projects, #modals{
   width:768px;
   
