@@ -317,6 +317,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  position: relative;
 }
 .container:before,
 .container:after {
