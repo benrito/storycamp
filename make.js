@@ -77,6 +77,7 @@ target.storycamp = function(){
   cd(cwd);
   mkdir('dist/storycamp');
   cp('-R', 'css/', 'dist/storycamp');
+  cp('-R', 'docs/', 'dist/storycamp');
   cp('-R', 'img/', 'dist/storycamp');
   cp('-R', 'js/', 'dist/storycamp');
   cp('-R', 'pop-images/', 'dist/storycamp');
